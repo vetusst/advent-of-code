@@ -1,4 +1,4 @@
-// Day 6
+// Day 7
 
 // Solution 2
 
@@ -16,7 +16,6 @@ const actionTypes = {
   DIR: 'DIR',
   FILE: 'FILE',
 }
-
 
 const getActionType = (line) => {
   switch (line[0]) {
